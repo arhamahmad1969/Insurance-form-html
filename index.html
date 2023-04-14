@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redox_Insurance</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <form action="redox Insurance" method="get">
+        <h1 class="col-xl-12 col-lg-10 col-md-8">Student Insurance Claim Form</h1>
+        <p>Redox by ARHAMAHMAD</p>
+        <div class="School_Section">
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label">School name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Name"
+            />
+          </div>
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label">Deparment</label>
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Deparment</option>
+            <option value="1">Deparment of BSc.</option>
+            <option value="2">Deparment of Engreening.</option>
+            <option value="3">Deparment of ADPA</option></select
+          ><br />
+        </div>
+        <div class="Student_info">
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label">Student name</label>
+          </div>
+          <div class="row g-3">
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+                id="info_name"
+              />
+            </div>
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+                id="info_name"
+              />
+            </div>
+          </div>
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label">Date of Birth</label>
+          </div>
+          <input type="date" id="info_date" /><br />
+        </div>
+        <div class="basic_info">
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Street Address"
+              id="addr_input"
+            />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Street Address line 2"
+              id="addr_input"
+            />
+          </div>
+          <div class="row g-3">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="City"
+                aria-label="City"
+                id="addr"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Region"
+                aria-label="Region"
+                id="addr"
+              />
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Postal/Zip Code"
+                aria-label="ZipCode"
+                id="addr"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Country"
+                aria-label="Country"
+                id="addr"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label"
+              >Email</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustomUsername"
+                placeholder="Email Please"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">
+                Please enter your email Address.
+              </div>
+            </div>
+            <label for="validationCustomUsername" class="form-label"
+              >Phone</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend"
+                >&#9742;</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustomUsername"
+                placeholder="Phone no."
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">Please enter your phone no.</div>
+            </div>
+          </div>
+          <br />
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+              With dashes and must be 11 digits
+            </span>
+          </div>
+        </div>
+        <div class="dependent">
+          <label for="" id="dep1">Is this claim for your dependent?</label
+          ><br />
+          <input type="radio" name="dep" id="btn" /> Yes
+          <input type="radio" name="dep" id="btn" /> No<br />
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label"
+              >Dependent's Name</label
+            >
+          </div>
+          <div class="row g-3">
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+                id="info_name"
+              />
+            </div>
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+                id="info_name"
+              />
+            </div>
+          </div>
+          <div class="col-12" id="School">
+            <label for="inputAddress" class="form-label">Date of Birth</label>
+          </div>
+          <input type="date" id="depdate" /><br />
+          <label for="" id="dep1"
+            >Do you,your dependents,or your parents have any other insurance or
+            medical plan that covers this conditions?</label
+          ><br />
+          <input type="radio" name="dependents" id="btn" /> Yes
+          <input type="radio" name="dependents" id="btn" /> No <br />
+        </div>
+        <div class="insurance">
+          <label for=""
+            >If yes,please enter the name of the insurance company</label
+          ><br />
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Name of company"
+            />
+          </div>
+          <br />
+          <label for="">For an Annual/Routine Examination</label><br />
+          <input type="radio" name="Routine" id="btn" /> Yes
+          <input type="radio" name="Routine" id="btn" /> No <br />
+          <label for="">Please describe sympotons</label>
+          <div class="col-md-4">
+            <textarea name="" id="" cols="65" rows="3"></textarea><br />
+          </div>
+          <label for="">Date of illness</label><br />
+          <input type="date" id="endate" /><br />
+          <label for=""
+            >Date you first consulted a physican for this illness</label
+          ><br />
+          <input type="date" id="endate" /><br />
+          <label for=""
+            >Have you ever sought treatment for this illness in the past</label
+          ><br />
+          <input type="radio" name="illness" id="btn" /> Yes
+          <input type="radio" name="illness" id="btn" /> No <br />
+          <label for="">If yes, please describe past treatment and dates</label
+          ><br />
+          <div class="col-md-4">
+            <textarea name="" id="" cols="65" rows="3"></textarea><br />
+          </div>
+        </div>
+              
+        <div class="Injury">
+          <label for="">For an Injury</label><br />
+          <input type="radio" name="Injury" id="btn" /> Yes
+          <input type="radio" name="Injury" id="btn" /> No <br />
+          <label for="">Please decribe how injury occurred</label><br />
+          <textarea name="" id="injtext" cols="65" rows="3"></textarea><br />
+          <label for="">Where did the injury occur (home,work,etc)</label><br />
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Where?"
+            />
+          </div>
+          <label for="">Date of injury</label><br />
+          <input type="date" id="injdate" /><br />
+          <label for=""
+          >What body part was injury (include right or left if
+          applicable)</label
+          ><br />
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Left or Right"
+            />
+          </div>
+          <label for="">Was the injury a result of an auto accident?</label><br />
+          <input type="radio" name="accident" id="btn" /> Yes
+          <input type="radio" name="accident" id="btn" /> No <br />
+          <label for="">Were you injured while working on the job?</label><br />
+          <input type="radio" name="class" id="btn" /> Yes
+          <input type="radio" name="class" id="btn" /> No <br />
+          <label for=""
+          >Were you injured during practice or play of an intercollegiate
+          sport?</label
+          ><br />
+          <input type="radio" name="athleticdoc" id="btn" /> Yes
+          <input type="radio" name="athleticdoc" id="btn" /> No <br />
+          <label for="">If yes, signature of athletic director</label><br />
+          <div class="row g-3">
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+                id="info_name"
+              />
+            </div>
+            <div class="col" id="info">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+                id="info_name"
+              />
+            </div>
+          </div>
+          <label for=""
+          >Have you ever sought treatment for this injury in the past?</label
+          ><br />
+          <input type="radio" name="past" id="btn" /> Yes
+          <input type="radio" name="past" id="btn" /> No <br />
+          <label for="">If yes, please describe past treatment and dates</label
+          ><br />
+          <textarea name="" id="injtext" cols="65" rows="8"></textarea><br />
+          <div class="signature">
+            <label for="">Signature of Claimant</label><br />
+            <div class="col-md-4" id="info">
+              <input
+              type="text"
+              class="form-control"
+              placeholder="Confimed"
+              aria-label="Last name"
+              id="info_name"
+              />
+            </div>
+          </div>
+          
+          <label for="">Date</label>
+          <input type="date" /><br />
+          <label for="" >Gender: </label>
+          <input type="radio" name="past" id="btn" /> Male
+          <input type="radio" name="past" id="btn" /> Female <br />
+        </div>
+        
+        <div class="ending">
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a class="btn btn-primary" href="mailto:arhamahmad.00786@gmail.com" >Submit form</a>
+            <button class="btn btn-primary" type="reset">Reset form</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+body{
+    background-color: whitesmoke
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+p{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.School_Section{
+    font-family: 'Inconsolata', monospace;
+}
+.School_Section select{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Inconsolata', monospace;
+    border: 2px solid ;
+    font-size: 15px;
+}
+.School_Section label{
+    font-size: 20px;
+}
+.Student_info{
+    font-family: 'Inconsolata', monospace;
+}
+.Student_info label{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#info{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+#info_date{
+    margin-left: 14px;
+}
+.basic_info{
+    font-family: 'Inconsolata', monospace;
+}
+.basic_info label{
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 5px;
+}
+#addr_input{
+    padding: 5px; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#addr{
+    width: 90%;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+.contact{
+    font-family: 'Inconsolata', monospace;
+}
+.col-auto span{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.contact label{
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 5px;
+}
+.dependent{
+    font-family: 'Inconsolata', monospace; 
+}
+.dependent label{
+    font-size: 20px;
+    padding: 5px;
+}
+#depdate{
+    margin-left: 14px;
+    margin-bottom: 6px;
+    margin-top: 3px;
+    padding: 5px;
+}
+#dep1{
+    margin-left: 14px;
+    padding: 5px;
+}
+#btn{
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.insurance{
+    font-family: 'Inconsolata', monospace;
+}
+.insurance label{
+    font-size: 20px;
+    margin-left: 14px;
+    padding: 5px;
+}
+#endate{
+    margin-left: 14px;
+    padding: 5px;
+}
+.Injury{
+    font-family: 'Inconsolata', monospace;
+}
+.Injury label{
+    font-size: 20px;
+    margin-left: 14px;
+    padding: 5px;
+}
+#injtext{
+    margin-left: 14px;
+}
+#injdate{
+    margin-left: 14px;
+    padding: 5px;
+}
+.signature{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.ending{
+    font-family: 'Inconsolata', monospace; 
+}
+.ending label{
+    font-size: 20px;
+    padding: 5px;
+}
+.ending input{
+    margin-top: 13px;
+}
+.ending button{
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+
